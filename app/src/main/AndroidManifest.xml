@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.nikhpand.dress_recommender" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="Gear Up" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".DressDisplay"
+            android:label="Men's Collection" >
+        </activity>
+        <activity
+            android:name=".Trouser"
+            android:label="Men's Trousers" >
+        </activity>
+        <activity
+            android:name=".Shirt"
+            android:label="Men's Shirt" >
+        </activity>
+        <activity
+            android:name=".WeatherDisplay"
+            android:label="Weather" >
+        </activity>
+        <activity
+            android:name=".UserSettingActivity"
+            android:label="Settings" >
+        </activity>
+        <activity
+            android:name=".DressDisplayFemale"
+            android:label="Women's Collection" >
+        </activity>
+        <activity
+            android:name=".TrouserF"
+            android:label="Women's Trousers" >
+        </activity>
+        <activity
+            android:name=".ShirtF"
+            android:label="Women's Shirt" >
+        </activity>
+        <activity
+            android:name=".Outer"
+            android:label="Men's Jacket" >
+        </activity>
+        <activity
+            android:name=".Foot"
+            android:label="Men's Footwear" >
+        </activity>
+        <activity
+            android:name=".Footf"
+            android:label="Women's Footwear" >
+        </activity>
+        <activity
+            android:name=".FormalDressDisplay"
+            android:label="Men's Formals" >
+        </activity>
+
+
+        <activity
+            android:name=".FormalDressDisplayFemale"
+            android:label="Women's Formals" >
+        </activity>
+        <activity
+            android:name=".OuterF"
+            android:label="Women's Jacket" >
+        </activity>
+        <activity
+            android:name=".Rain"
+            android:label="" >
+        </activity>
+        <activity
+            android:name=".VideoViewActivity"
+            android:label="@string/title_activity_vdeo_view" >
+        </activity>
+        <activity
+            android:name=".TrouserFAdd"
+            android:label="Women's Trousers" >
+        </activity>
+    </application>
+
+</manifest>
